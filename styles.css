@@ -125,6 +125,11 @@ body {
     font-size: 20px;
 }
 
+.row {
+    width: 80%;
+    margin: auto;
+}
+
 .titulo {
     text-align: center;
 }
@@ -142,6 +147,53 @@ body {
 .product:hover {
     background-color: rgb(189, 89, 89);
 }
+
+.accordion-button {
+    background-color: rgb(136, 235, 116);
+    color: rgb(25, 0, 255);
+}
+
+.mivi {
+    margin: 5%;
+}
+
+.texto-mivi {
+    background-color: rgb(211, 145, 145);
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Sofadi One', cursive;
+}
+
+.accordion-item {
+    font-size: 20px;
+}
+
+.imagenes {
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.logito {
+
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-left: 22%;
+    align-items: center;
+    max-width: 450px;
+}
+
+.logito:hover,
+.producto:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in 0.4s;
+}
+
 
 @media only screen and (max-width: 600px) {
 
