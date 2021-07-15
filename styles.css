@@ -97,10 +97,9 @@ body {
     border-radius: 4px;
 }
 
-.inicial {
-    padding: 0;
-    max-width: 9000px;
-    /*style="width: 50%;"*/
+
+.bad {
+    width: 100%;
 }
 
 .todo {
@@ -109,6 +108,9 @@ body {
     overflow: hidden;
 }
 
+.primera {
+    margin: auto;
+}
 
 .card {
     overflow: hidden;
@@ -305,12 +307,6 @@ body {
         margin: 0px 15%;
         padding: 25px;
         border-radius: 4px;
-    }
-
-    .inicial {
-        padding: 0;
-        max-width: 9000px;
-        /*style="width: 50%;"*/
     }
 
     .todo {
