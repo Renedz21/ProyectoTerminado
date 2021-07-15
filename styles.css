@@ -78,6 +78,16 @@ body {
     text-align: center;
 }
 
+.card-title {
+    color: rgb(136, 14, 14);
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(100, 98, 98);
+}
+
 .carousel {
     max-width: 70%;
     align-items: center;
@@ -250,6 +260,17 @@ body {
         font-family: 'Yomogi', cursive;
         padding: 0;
         margin: 0;
+    }
+
+
+    .card-title {
+        color: rgb(136, 14, 14);
+    }
+
+    .card-text {
+        font-size: 18px;
+        font-weight: 100;
+        color: rgb(100, 98, 98);
     }
 
     .nav-item {
